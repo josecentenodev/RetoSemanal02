@@ -1,0 +1,160 @@
+/* font-family: 'anime_ace_2.0_bbregular'; */
+/* DALE A TU CUERPO ALEGRIA MACARENA */
+body {
+    margin: 0;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAVBAR */
+header {
+    background-image: url('/images/rising-sun.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 5px rgba(0,0,0,0);
+}
+
+/* BOTONERA */
+
+.botonera {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    list-style: none;
+    margin-right: 60px;
+    flex-wrap: wrap;
+}
+
+.botonera li {
+    padding: 10px;
+    border-radius: 50%;
+}
+/* BOTONCITOS  */
+.spotify {
+    background-color: #1dd05d;
+}
+
+.spotify a i {
+    color: #181313;
+}
+
+.patreon {
+    background-color: #ff424d;
+}
+
+.patreon i {
+    color: #052c47;
+}
+.facebook {
+    background-color: white;
+}
+.facebook i {
+    color: #4064ac;
+}
+
+.botonera_boton a {
+    text-decoration: none;
+    color: rgba(255,255,255);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.botonera_boton a i {
+    font-size: 35px;
+}
+
+/* PORTADA */
+
+.portada {
+    min-height: 100vh;
+    background-image: url('/images/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedorPrincipal {
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(0,0,0,.5);
+    width: 95%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo h1 {
+    font-family: 'anime_ace_2.0_bbregular';
+}
+
+.titulo p {
+    margin-top: 50px;
+}
+
+/* SECCION PODCASTS */
+.podcasts {
+    background-image: url('/images/samurai-on-rising-sun-japan-flag.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedorPodcasts {
+    padding-top: 35px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: rgba(0,0,0,.5);
+    width: 95%;
+    height: 100%;
+    /* box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* CARDS */
+small {
+    padding: 7px;
+}
+
+.podcast {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 500px;
+    box-sizing: border-box;
+    background-color: #D32F2F;
+}
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-top: 1px solid grey;
+    color: grey;
+}

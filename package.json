@@ -1,0 +1,12 @@
+{
+  "name": "retoSemanal02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "DevCito",
+  "license": "ISC"
+}
