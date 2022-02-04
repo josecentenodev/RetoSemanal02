@@ -8,7 +8,7 @@ body {
 
 /* NAVBAR */
 header {
-    background-image: url('/images/rising-sun.png');
+    background-image: url('../images/rising-sun.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@ header {
 
 .portada {
     min-height: 100vh;
-    background-image: url('/images/fondo.jpg');
+    background-image: url('../images/fondo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ header {
 
 /* SECCION PODCASTS */
 .podcasts {
-    background-image: url('/images/samurai-on-rising-sun-japan-flag.jpg');
+    background-image: url('../images/samurai-on-rising-sun-japan-flag.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,9 +127,20 @@ header {
     height: 100%;
     /* box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: space-evenly;
     color: white;
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -144,7 +155,7 @@ small {
     margin: 30px;
     border-radius: 12px;
     padding: 10px;
-    max-width: 500px;
+    width: 300px;
     box-sizing: border-box;
     background-color: #D32F2F;
 }
